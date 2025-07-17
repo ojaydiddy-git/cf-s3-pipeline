@@ -18,6 +18,6 @@ Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: !Ref BucketName
+      BucketName: !Ref Akin-7032-S3Bucket
       VersioningConfiguration:
         Status: !Ref VersioningState
