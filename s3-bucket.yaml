@@ -5,6 +5,7 @@ Parameters:
   BucketName:
     Type: String
     Description: Name of the S3 bucket
+    Default: my-s3-bucket
 
   VersioningState:
     Type: String
@@ -18,6 +19,6 @@ Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: !Ref Akin-7032-S3Bucket
+      BucketName: !Ref BucketName
       VersioningConfiguration:
         Status: !Ref VersioningState
