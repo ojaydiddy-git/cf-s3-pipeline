@@ -5,7 +5,7 @@ Parameters:
   BucketName:
     Type: String
     Description: Name of the S3 bucket ok
-    Default: my-s3-bucket
+    Default: my-s3-bucket2
   VersioningState:
     Type: String
     AllowedValues:
@@ -15,7 +15,7 @@ Parameters:
     Description: Set versioning state (Enabled or Suspended)
 
 Resources:
-  MyS3Bucket2:
+  MyS3Bucket:
     Type: AWS::S3::Bucket
     Properties:
       BucketName: !Ref BucketName
