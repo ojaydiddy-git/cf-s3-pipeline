@@ -15,7 +15,7 @@ Parameters:
     Description: Set versioning state (Enabled or Suspended)
 
 Resources:
-  MyS3Bucket:
+  MyS3Bucket2:
     Type: AWS::S3::Bucket
     Properties:
       BucketName: !Ref BucketName
