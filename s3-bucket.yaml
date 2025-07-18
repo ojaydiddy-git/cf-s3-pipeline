@@ -4,7 +4,7 @@ Description: CloudFormation template to create an S3 bucket with optional versio
 Parameters:
   BucketName:
     Type: String
-    Description: Name of the S3 bucket
+    Description: Name of the S3 bucket ok
   VersioningState:
     Type: String
     AllowedValues:
